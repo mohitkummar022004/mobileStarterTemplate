@@ -14,3 +14,15 @@ export type {
   ApiClientConfig,
 } from './types';
 
+// Export auth helper functions
+export {
+  getStoredToken,
+  getStoredRefreshToken,
+  getStoredUser,
+  setAuthData,
+  clearAuthData,
+  isAuthenticated,
+  isAdmin,
+  getAuthHeaders,
+} from './client';
+
